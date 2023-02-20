@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+
+        <label for="prenom">Votre prenom :</label>  <input type="text" name="prenom" id="prenom" size="30" maxlength="20" placeholder="ex : raphael" autofocus required> <br>
+        <input type="submit" value="Envoyer">
+    </form>
+
+    <hr>
+
+    <form action="" method="get">
+
+        <label for="commentaire">Un commentaire ?</label><br>
+        <textarea name="commentaire" id="commentaire" rows="5" cols="20">Bonjour, cette formation a etait tres enrichissante, je recommande +++</textarea>
+
+    </form>
+
+    <hr>
+
+    <form action="" method="get">
+
+        <label for="mail">Entrez votre mail</label>
+        <input type="email" name="mail" id="mail" required><br>
+
+        <label for="date">Date de naissance</label>
+        <input type="datetime-local" name="date" id="date" required><br>
+
+        <label for="mdp">Entrez votre mot de passe</label>
+        <input type="password" name="mdp" id="mdp" required><br>
+
+        <label for="num">Entrez votre numero de telephone</label>
+        <input type="number" name="num" id="num" required><br>
+
+        <label for="recherchez"></label>
+        <input type="search" name="recherche" id="recherchez">
+        <button>search</button> <br>
+
+        <label for="barre">Modifier</label>
+        <input type="range" name="barre" id="barre">
+
+        
+
+    </form>
+
+    <hr>
+
+    <form action="" method="get">
+
+        <p> Cochez les language informatique souhaité :<br>
+
+            <input type="checkbox" name="HTML" id="HTML" checked> <label for="">HTML</label> <br>
+            <input type="checkbox" name="CSS" id="CSS"> <label for="CSS">CSS</label><br>
+            <input type="checkbox" name="JAVASCRIPT" id="JAVASCRIPT"> <label for="">JAVASCRIPT</label><br>
+            <input type="checkbox" name="PHP" id="PHP"> <label for="">PHP</label><br>
+            <input type="checkbox" name="MYSQL" id="MYSQL"> <label for="">MYSQL</label><br>
+            <input type="checkbox" name="JAVA" id="JAVA"> <label for="JAVA">JAVA</label><br>
+            <input type="checkbox" name="PYTHON" id="PYTHON"> <label for="PYTHON">PYTHON</label><br>
+            <button>Envoyé</button>
+
+        </p>
+
+    </form>
+
+    <hr>
+
+
+    <form action="" method="get">
+        <fieldset>
+            <legend>question 1</legend>
+            <p> Quel est le language de programmation en script ?<br>
+
+                <input type="radio" name="language" id="HTML"> <label for="">HTML</label> <br>
+                <input type="radio" name="language" id="CSS"> <label for="CSS">CSS</label><br>
+                <input type="radio" name="language" id="JAVASCRIPT"> <label for="">JAVASCRIPT</label><br>
+                <input type="radio" name="language" id="PHP"> <label for="">PHP</label><br>
+                <input type="radio" name="language" id="MYSQL"> <label for="">MYSQL</label><br>
+                <input type="radio" name="language" id="JAVA"> <label for="JAVA">JAVA</label><br>
+                <input type="radio" name="language" id="PYTHON"> <label for="PYTHON">PYTHON</label><br>
+                <button>Envoyé</button>
+
+            </p>
+        </fieldset>
+
+        <fieldset>
+            <legend>question 2</legend>
+            <label for="pays">Votre nationalité</label>
+            <select name="pays" id="pays">
+                <option value="france">Francaise</option>
+                <option value="belgique">Belge</option>
+                <option value="espagne">Espagnole</option>
+                <option value="portugal" selected>Portugaise</option>
+                <option value="italie">Italienne</option>
+            </select>
+        </fieldset>
+
+    </form>
+
+    <video width="320" height="240" controls poster="../../j2/cv/profil.png" autoplay>
+       <source src="vid1.mp4" type="video/mp4">
+    </video>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Y6jMj82A1zY" title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+    </iframe>
+
+</body>
+</html>

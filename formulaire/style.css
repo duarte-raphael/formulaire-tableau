@@ -1,0 +1,7 @@
+:required {
+    background-color:#F2A3BB;
+}
+
+:focus {
+    background-color: blue;
+}
